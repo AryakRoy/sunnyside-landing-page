@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  height: 100vh;
+  background: url("./images/desktop/image-header.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  color: white;
+  font-size: 20;
+  align-items: center;
+}
+.menu span {
+  margin-right: 30px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 545;
+}
+.contact:hover {
+  background-color: antiquewhite;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.main .text {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transform: translate(0, -100%);
+}
+.main img {
+  margin-top: 80px;
+  transform: translate(0, -100%);
+}
+.section1 {
+  display: flex;
+  height: 650px;
+}
+.section1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.left,
+.right {
+  flex: 1;
+}
+.section1 .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 {
+  display: flex;
+  height: 650px;
+}
+.section2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.section2 .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .text-container {
+  width: 50%;
+}
+.section1 .text-container {
+  width: 50%;
+}
+.text-container h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+  width: 70%;
+}
+.text-container p {
+  color: #848391;
+  line-height: 1.3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+.text-container .button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.text-container img {
+  width: 150px;
+}
+.section3 {
+  display: flex;
+  height: 650px;
+  position: relative;
+}
+.section3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  z-index: -2;
+}
+.section3 .text-message {
+  position: absolute;
+  bottom: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.section3 .left {
+  color: #355c54;
+  display: flex;
+  justify-content: center;
+}
+.section3 .right {
+  color: #2a5580;
+  display: flex;
+  justify-content: center;
+}
+.section3 h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.section3 p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 60%;
+  line-height: 1.5;
+  text-align: center;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 50px;
+}
+.testimonials h1 {
+  color: #a0a1a2;
+  font-size: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 2.5px;
+}
+.clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.client-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.client-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.client p {
+  text-align: center;
+  margin-bottom: 50px;
+  width: 60%;
+  color: #848391;
+  line-height: 1.8;
+}
+.client-details {
+  text-align: center;
+}
+.client-details h2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+.client-details h4 {
+  color: #848391;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.section4 {
+  display: flex;
+  height: 600px;
+}
+.section4 .example {
+  flex: 0.25;
+}
+.section4 .example img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer {
+  background-color: #90d4c5;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+.footer .logo {
+  filter: invert(40%) sepia(46%) saturate(498%) hue-rotate(117deg)
+    brightness(86%) contrast(89%);
+}
+.footer .social-links img {
+  padding: 10px;
+}
+.footer span {
+  color: #2d7465;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
